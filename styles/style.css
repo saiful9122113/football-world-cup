@@ -1,0 +1,394 @@
+/*google font*/
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+/* body */
+body {
+    background-color: #FFFFFF;
+    margin-left: 0px;
+
+}
+
+/* banner start */
+.header-text-color {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.capacitor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+}
+
+
+.button {
+    background-color: #DD0000;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border;
+    3px solid #42FBF2;
+    position: relative;
+    z-index: 1;
+}
+
+.button:hover {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42FBF2;
+}
+
+.button:hover:before {
+    transition: 0.5 all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+
+#img-control {
+    hieght: 170%;
+    width: 170%;
+    margin-left: 25%;
+    margin-top: 7%;
+
+}
+
+header {
+    height: 600px;
+    width: 1057px;
+    margin: 3% 10%;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    border-radius: 35px;
+    padding-left: 10%;
+}
+
+/*......Banner end........*/
+
+
+/*.......Fixed box start........ */
+
+.box-container {
+    background-color: black;
+    height: 260px;
+    width: 295px;
+    margin-right: 25px;
+
+}
+
+/*.......Fixed box buton 1........ */
+.box-1 {
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    margin: 20px 20px 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box-1:hover {
+    color: white;
+    background-color: green;
+}
+
+.box-2:hover {
+    color: white;
+    background-color: green;
+}
+
+/*.......Fixed box buton 2........ */
+.box-2 {
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*.......Fixed box buton 3........ */
+.box-3 {
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+/*.....Fixed box link decoration........ */
+.box-link-1 {
+    color: black;
+    text-decoration: none;
+}
+
+/*.....Fixed box link decoration........ */
+.box-link-2 {
+    color: white;
+    text-decoration: none;
+}
+
+/* left-box-end */
+/*.....Blog box start........ */
+.blog {
+    border: 1px solid #E8E8E8;
+    width: fit-content;
+
+}
+
+.transfer-button {
+    width: 100px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    font-size: large;
+}
+
+.blog-details {
+    margin-left: 20px;
+}
+
+.blog-details h3 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.time-row {
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.watch {
+    margin-bottom: -6px;
+    margin-left: -60px;
+}
+
+.fa-comment {
+    color: darkgrey;
+}
+
+.blogs-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+/*.....Fixed box & blog decoration........ */
+.box-blogs-container {
+    display: flex;
+    margin-left: 95px;
+    margin-top: 150px;
+}
+
+/*.....Blog section End........ */
+
+/*.......... footer start.......... */
+footer {
+    color: white;
+    background-color: black;
+    height: 430px;
+    width: 1510px;
+    margin-left: -10px;
+}
+
+footer h1 {
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 80px;
+
+}
+
+.hr-style {
+    width: 80%;
+    border: 1px solid #2D2D2D;
+}
+
+.footer-options {
+    text-align: center;
+}
+
+.footer-link {
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.fa-brands {
+    margin-left: 50px;
+}
+
+/*.......... footer end.......... */
+/*.......Start Mobile View....... */
+
+@media screen and (max-width:500px) {
+
+    header {
+        padding-top: 30px;
+        padding-right: 40px;
+        text-align: center;
+        height: 625px;
+        width: 300px;
+        display: block;
+        border-radius: 20px;
+    }
+
+    #img-control {
+        height: 78%;
+        width: 78%;
+        margin-right: 30%;
+        padding-left: -70%;
+    }
+
+    br {
+        display: none;
+    }
+
+    .box-container {
+        background-color: white;
+        height: 260px;
+        width: 295px;
+    }
+
+    .box-blogs-container {
+        display: grid;
+        grid-template-columns: revert;
+    }
+
+    .blogs-container {
+        display: grid;
+        grid-template-columns: revert;
+        margin-right: 80px;
+
+    }
+
+    footer {
+        height: 830px;
+        width: 375px;
+        margin-left: 50px;
+    }
+
+    .footer-options {
+        display: grid;
+        grid-template-columns: revert;
+        margin-right: 45px;
+    }
+
+    .footer-link {
+        margin-top: 35px;
+    }
+
+    .social-links {
+        display: grid;
+        grid-template-columns: revert;
+        margin-right: 50px;
+        margin-top: 60px;
+    }
+
+    .fa-brands {
+        margin-top: 30px;
+    }
+
+}
+
+/*.......End Mobile View....... */
+/*.......Start Tablet View....... */
+
+@media screen and (min-width:501px) and (max-width:1000px) {
+
+    header {
+        margin: 50px;
+        padding-top: 30px;
+        padding-right: 40px;
+        height: 410px;
+        width: 750px;
+        border-radius: 20px;
+    }
+
+    #img-control {
+        height: 130%;
+        width: 110%;
+        padding-top: 14px;
+    }
+
+    .box-container {
+        background-color: white;
+        height: 260px;
+        width: 295px;
+        display: flex;
+        margin-left: -30px;
+    }
+
+    .box-blogs-container {
+        display: grid;
+        grid-template-columns: revert;
+
+    }
+
+    .blogs-container {
+        display: grid;
+        margin-right: 80px;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20px;
+
+    }
+
+    footer {
+        height: 450px;
+        width: 980px;
+    }
+
+    .footer-link {
+        margin: 45px;
+        height: 50px;
+    }
+
+
+    .fa-brands {
+        margin-top: 30px;
+    }
+
+
+}
+
+/*.......End Mobile View....... */
+/*.......End Mobile View....... */
